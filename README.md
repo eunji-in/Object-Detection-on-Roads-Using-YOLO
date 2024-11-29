@@ -12,3 +12,44 @@ Upscaling: Improved resolution sometimes enhanced detection for smaller objects 
 Denoising: Reduced noise in the image but occasionally resulted in lower detection accuracy.
 Sharpening: Enhanced edges, which seemed to improve detection for certain object types.
 This work provides valuable insights for optimizing YOLOv8 in real-world applications, particularly where preprocessing is feasible to boost model performance
+
+2. Source Code
+
+3. Performance Metrics
+
+>test1
+
+ Description|Processing Time (s)|Detected Objects
+  ---|---|---
+   Original| 0.355570|4|
+   Upscaled| 0.363732|4|
+   Denoised|0.372777|4|
+  Sharpened|0.364677|1|
+
+>test2
+
+Description|Processing Time (s)|Detected Objects
+  ---|---|---
+   Original|0.910283|8|
+   Upscaled|0.897763|8|
+   Denoised|0.939744|8|
+  Sharpened|0.817011|3|
+
+
+>test3
+
+  Description|Processing Time (s)|Detected Objects
+  ---|---|---
+   Original|0.571449|6|
+   Upscaled|0.581833|6|
+   Denoised|0.559759|5|
+  Sharpened|0.573911|1|
+
+
+
+  4. Installation and Usage
+
+```python
+pip install ultralytics
+```
+ultralytics : ultralytics에서 제공하는 라이브러리 이름으로 최신 YOLOv8 모델 지원한다. (객체 탐지, 분류, 세그멘테이션 기능)
