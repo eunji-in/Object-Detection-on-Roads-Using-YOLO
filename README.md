@@ -1,5 +1,6 @@
-# Object Detection on Roads Using YOLO - 2023021274 차은지
-## Copare with Denoised, Upscaled, Sharpened image
+# Object Detection on Roads Using YOLO
+## 2023021274 차은지
+## Compare with Denoised, Upscaled, Sharpened image
 
 1. Project Results and Overview
 
